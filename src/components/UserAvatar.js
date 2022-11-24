@@ -44,6 +44,42 @@ const UserAvatar = (props) => {
                         </small>
                     </p>
                 </div>
+
+            </div>
+            <div className="card" style={{ marginTop: 10 }}>
+                <div className="card-body text-dark" style={{ textAlign: "left"}}>
+                    <p>Story Point - Figma</p>
+                    <p>
+                        We can use card component of bootstrap to make this layout, with the Width is 620px,
+                        Height is 330px, Position is Relative and Background is White.</p>
+                    <p>
+                        Then we can make a new container and put a new class with the following attributes,
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: flex-start;
+                        padding: 0px;
+                        gap: 10px;
+                    </p>
+                    <p>
+                        on make two child in the div. on the first child we put attributes like this :
+                        position: absolute;
+                        width: 281px;
+                        height: 217px;
+                        left: 54px;
+                        top: 55px;
+                    </p><p>
+                        and the second child we put attributes like this :
+                        position: absolute;
+                        width: 282px;
+                        height: 428px;
+                        left: 338px;
+                        top: -61px;
+                    </p>
+                    <p>
+                    thank you very much for the opportunity. for a while, this is all I can do. Best Regards, Razinal
+                    </p>
+                </div>
             </div>
         </>);
 }
