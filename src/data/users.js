@@ -1,9 +1,14 @@
 import { getRandomName } from "../utils/plugin";
 
-const Avatar = (max = 100) => {
+const CountAvatar = () => {
+    // fetching count data
+    return 100;
+}
+
+const Avatar = (max = 10) => {
     let userData = [];
 
-    for (let min = 0; min < max; min++) {
+    for (let i = 0; i < max; i++) {
         userData.push({
             "avatar": "https://i.pravatar.cc/",
             "name": `${getRandomName()}`
@@ -12,4 +17,4 @@ const Avatar = (max = 100) => {
     return userData;
 }
 
-export { Avatar };
+export { CountAvatar, Avatar };
